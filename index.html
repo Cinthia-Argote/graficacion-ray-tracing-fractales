@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <SCRIPT TYPE="text/javascript" src="js/jquery-1.7.2.js"></SCRIPT>
+    <link rel="stylesheet" href="css/bootstrap.css"></link>
+    <link rel="stylesheet" href="css/custom.css"></link>
+  </head>
+  <body>
+    <center>
+      <h1> Ray Tracing en JavaScript</h1>
+      <div id = "can"></div>
+      <script src="sketch.js"></script>
+    </center>
+    <div class="container">
+      <div>
+        <label>Radio</label>
+        <input type="text" id="radio" placeholder="Introduzca el centro"></input>
+      </div>
+      <div>
+        <label>Posicion</label>
+        <input type="text" id="center" placeholder="Introduzca el centro"></input>
+      </div>
+      <div>
+        <label>Color</label>
+        <input type="text" id="color" placeholder="Introduzca el color"></input>
+      </div>
+      <button class="btn btn-primary" id="addFigure">Agregar Esfera</button>
+      <div style="float:right">
+        <button id="submitbutton" class="btn btn-primary">
+          Ejecutar
+        </button>
+        <button id="erasebutton" class="btn btn-danger">Limpiar</button>
+      </div>
+    </div>
+  </body>
+</html>
